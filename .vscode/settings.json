@@ -1,0 +1,7 @@
+{
+    "git.decorations.enabled": false,
+    "git.enabled": true,
+    "git.enableStatusBarSync": true,
+    "scm.diffDecorations": "none"
+    // "scm.diffDecorations": "none"
+}

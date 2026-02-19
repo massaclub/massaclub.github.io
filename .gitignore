@@ -1,17 +1,27 @@
-# Игнорируем каталог в корне рабочей директории
-/____Develop (not for production)
-/src/img/640px/
-/config
-/app/data/stat
-styles.css
-vanilla.js
-.htaccess
+____myBookmark
+____Not for production
 
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# Для информации:
-# Косая черта в начале означает, что каталог находится в корне рабочей директории.
-# Косая черта в конце означает каталог, все содержимое которого, будет игнорироваться (включая все файлы и подкаталоги).
+# Node dependencies
+node_modules
 
-# Для справки:
-# https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore
-# https://ru.hexlet.io/courses/intro_to_git/lessons/gitignore/theory_unit
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+# .env
+.env.*
+!.env.example
